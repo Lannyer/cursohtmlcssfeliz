@@ -1,3 +1,8 @@
-body, a, h1, h2, h3, p, main {
+body, a, h1, h2, h3 {
     margin: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
 }
