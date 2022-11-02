@@ -1,5 +1,9 @@
 # Curso de HTML e CSS feliz
 
+
+Lorem ipsum dolor sit amet...
+
+
 **header:** usada para criar cabeçalhos em uma página. Representa um grupo de suporte de introdução e de naveação.
 
 ---
@@ -106,7 +110,7 @@ color: #F0B;
 
 --- 
 
-reset CSS
+**reset CSS:**
 
 ---
 
@@ -119,5 +123,13 @@ Quase tudo funciona em "caixas", englobando o conteúdo do elemento. Algumas eng
 **-** _display: inline-block_ - o melhor dos dois mundos. Ele mantém na mesma linha, herda o comportamento por palavra, altera largura e altura e se não forem definidas irá seguir o conteúdo.
 
 ---
+
+**section:** significa seção e é ezxatamente isso, é o elemento que cria seções na pagina. Todo conteúdo da tag faz parte de uma seção. É como uma loja, onde existe diversas seções com funções diferentes, assim é um site e para isso se utiliza o elemento ```<section>```.
+
+**-** _div_ - cria uma divisão e não possuí valor semântico. É usado para dar suporte, mas deve-se evitar seu uso pois não atrapalha em fatores como SEO e acessibilidade.
+
+**-** _div x section_ - é usdo em conjunto pato para demarcar e agrupar um conteúdo para dar um comportamento visual. Para definir o conteúdo ela não serve, pois como dito anteriormente, ela não possúi valor semantico e com isso não é capaaz de definir o conteúdo, principalmente para leitores de tela.
+
+--- 
 
 
