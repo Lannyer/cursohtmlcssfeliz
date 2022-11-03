@@ -3,3 +3,48 @@
     width: 60px;
     height: 60px;
 }
+
+.projects {
+    height: 520px;
+    background-color: #000;
+    padding-top: 60px;
+    border-bottom: 10px solid #2B658E;
+
+}
+
+.projects-item {
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 0 #eee;
+}
+
+.projects-list {
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.acriar {
+background-color: #003f6b;
+height: 783px;
+border-bottom: 10px solid #000;
+padding-top: 50px;
+}
+
+.sobre {
+    max-width: 1280px;
+    height: 312px;
+    margin-top: 150px;
+    display:flex;
+    align-items: center;
+}
+
+.sobre p {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 20px;
+    color: #fff
+}
