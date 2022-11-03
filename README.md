@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet...
 
 ---
 
-**Emmet:** é um plugin usado em IDEs e editores de código para facilitar a edição dos códigos. Possúi uma sintaxe própria que agiliza e facilita a edição de códigos HTML.
+**Emmet:** é um plugin usado em IDEs e editores de código para facilitar a edição dos códigos. Possúi uma sintaxe própria que agiliza e facilita a edição de códigos _HTML_.
 
 _Ex:_
 
@@ -106,11 +106,7 @@ color: #F0B;
 </style>
 
 ~~~
-> O código de trÊs letras é usada quando os pares de informações são os mesmos como visto nos exemplos. Os pares representam as três cores do padrão RGB em hexadecimal e outra forma de escrever tais cores é exatamente com o código RGB como visto no exemplo.
-
---- 
-
-**reset CSS:**
+> O código de três letras é usada quando os pares de informações são os mesmos como visto nos exemplos. Os pares representam as três cores do padrão RGB em hexadecimal e outra forma de escrever tais cores é exatamente com o código RGB como visto no exemplo.
 
 ---
 
@@ -132,4 +128,48 @@ Quase tudo funciona em "caixas", englobando o conteúdo do elemento. Algumas eng
 
 --- 
 
+**flexbox:** é um método para criação de layouts alinhando e distribuindo os espaços entres os itens de uma seção do site, esses itens possuindo dimensões dinâmicas ou não e até mesmo desconhecidas. A alura possui um artigo bem completo que você pode [ler aqui](https://www.alura.com.br/artigos/css-guia-do-flexbox?utm_term=&utm_campaign=%5Bfundo%5D+teste+performance+max&utm_source=adwords&utm_medium=ppc&hsa_acc=7722097246&hsa_cam=18663119163&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3). Assim como a Alura, a Rafa Ballerini possui dois vídeos explicando em detalhes, você pode assistir nas [parte 1](https://www.youtube.com/watch?v=KbjLtEgmZ_E) e [parte 2](https://www.youtube.com/watch?v=hjz6ezV9_uc).
 
+--- 
+
+**reset CSS:** serve para limpar os padrões de todos os elementos _HTML_ que ja possuem suas formatações padrões, evitando elementos com valores "fantasmas" nos códigos atrabalhand oa renderização do conteúdo das páginas. Quase tudode quase todos os elementos vira "padrão", como um texo sem formatação, como diz [Thiago Belem](http://blog.thiagobelem.net/css-reset-o-que-e-e-como-usar). Ele ajuda para que as páginas renderizem da mesma forma em todos os navegadores, uma vez que cada um tem sua forma padrão de renderização.
+
+---
+
+dl
+dt
+dd
+
+---
+
+progress
+
+---
+
+componente filho elemento
+https://www.youtube.com/watch?v=erRwlu3k1dY&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=83
+
+---
+
+.main-title h1
+.main-title .second
+.main-title.-second 
+ https://www.youtube.com/watch?v=EfuzIO9nrzs&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=79
+
+---
+
+componente
+
+---
+
+componente elemento modificador
+uma palavra elemento, separado por hifen componente
+https://www.youtube.com/watch?v=EfuzIO9nrzs&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=79
+
+--- 
+
+webkit moz
+
+---
+
+article
