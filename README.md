@@ -118,6 +118,10 @@ Quase tudo funciona em "caixas", englobando o conteúdo do elemento. Algumas eng
 **-** _display: block_ - ele ocupa toda a linha por padrão, como o elemento ```<nav>```. Permite definir altura e largura.Por padrão sua largura é a "linha" toda, quem define a largura é o elemento pai. A altura é definida pelo conteúdo, o que define, então, é o comportamento dos elementos filhos. 
 **-** _display: inline-block_ - o melhor dos dois mundos. Ele mantém na mesma linha, herda o comportamento por palavra, altera largura e altura e se não forem definidas irá seguir o conteúdo.
 
+https://www.youtube.com/watch?v=caxiggysoB4&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=74
+
+24-27
+
 ---
 
 **section:** significa seção e é ezxatamente isso, é o elemento que cria seções na pagina. Todo conteúdo da tag faz parte de uma seção. É como uma loja, onde existe diversas seções com funções diferentes, assim é um site e para isso se utiliza o elemento ```<section>```.
@@ -173,3 +177,15 @@ webkit moz
 ---
 
 article
+
+---
+
+:nth-child()
+
+---
+
+figure
+
+---
+
+

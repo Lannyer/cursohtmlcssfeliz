@@ -1,0 +1,20 @@
+.projects {
+    height: 520px;
+    background-color: #000;
+    padding-top: 60px;
+    border-bottom: 10px solid #2B658E;
+
+}
+
+.projects-item {
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 0 #eee;
+}
+
+.projects-list {
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
