@@ -188,4 +188,23 @@ figure
 
 ---
 
+fatoração
+
+---
+
+box-sizing: 
+border-box;
+
+---
+
+transform: 
+rotate(90deg) 
+translateX(-62%);
+
+---
+
+content: '';
+
+---
+
 

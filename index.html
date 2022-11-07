@@ -13,46 +13,51 @@
 
         <link rel="stylesheet" href="css/testes.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/components/header.css">
-        <link rel="stylesheet" href="css/components/action.css">
-        <link rel="stylesheet" href="css/components/banner.css">
+        <link rel="stylesheet" href="css/components/main-header.css">
+        <link rel="stylesheet" href="css/components/main-action.css">
+        <link rel="stylesheet" href="css/components/main-banner.css">
         <link rel="stylesheet" href="css/components/main-title.css">
-        <link rel="stylesheet" href="css/components/subtitle.css">
-        <link rel="stylesheet" href="css/components/box.css">
-        <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/main-subtitle.css">
+        <link rel="stylesheet" href="css/components/main-box.css">
+        <link rel="stylesheet" href="css/components/main-button.css">
+        <link rel="stylesheet" href="css/components/main-section.css">
         <link rel="stylesheet" href="css/components/skills-tec.css">
         <link rel="stylesheet" href="css/components/progess-bar.css">
-        <link rel="stylesheet" href="css/components/projects.css">
+        <link rel="stylesheet" href="css/components/main-projects.css">
         <link rel="stylesheet" href="css/components/wrapper-skills.css">
+        <link rel="stylesheet" href="css/components/main-about.css">
+        <link rel="stylesheet" href="css/components/main-description.css">
+        <link rel="stylesheet" href="css/components/button-arrow.css">
+        <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/main-carousel.css">
     </head>
 
     <body>
-        <header class="header">
+        <header class="main-header">
             <h1 class="main-title">TioLanny</h1>
 
             <nav>
-                <a class="action" href="" lang="en">Skill</a class="action">
-                <a class="action" href="">Projetos</a class="action">
-                <a class="action" href="">Sobre</a class="action">
-                <a class="action" href="">Contato</a class="action">
-                <a class="button" href="" lang="en">Download CV</a>
+                <a class="main-action" href="" lang="en">Skill</a class="main-action">
+                <a class="main-action" href="">Projetos</a>
+                <a class="main-action" href="">Sobre</a>
+                <a class="main-action" href="">Contato</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
 
-        <section class="banner">
+        <section class="main-banner">
             <div class="wrapper">
-                <div class="box">
+                <div class="main-box">
                     <h1 class="main-title">Lannyer G. Junior</h1>
-                    <h2 class="subtitle">Front & BackEnd</h2>
+                    <h2 class="main-subtitle">Front & BackEnd</h2>
                 </div>
                 <div class="navigation">
-                    <a class="button" href="" lang="en">Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                    <a class="main-button" href="" lang="en">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="main-section">
             <h2 class="main-title -second">Skills</h2>
 
             <div class="wrapper-skills">
@@ -114,32 +119,69 @@
                 </article>
             </div>
         </section>
-        <section class="projects">
+        <section class="main-projects">
             <h2 class="main-title -second">Projetos</h2>
-            <div class="projects-list">
-                <figure class="projects-item">
-                    <img  src="assets/img/firedlabs.png" alt="">
-                </figure>
-                <figure class="projects-item">
-                    <img  src="assets/img/collabcode.png" alt="">
-                </figure>
-                <figure class="projects-item">
-                    <img  src="assets/img/portfolio.png" alt="">
-                </figure>
+            <div class="main-projects-list">
+                <a href="https://lannyer.github.io/imersaodev3/" target="_blank"><img class="main-projects-item"
+                        src="assets/img/alura.png" alt="Logo da Alura que leva para os projetos da 3ª Imersão Dev."></a>
+                <img class="main-projects-item" src="assets/img/logo.png"
+                    alt="Logo do Esse Podcast, projeto vindouro do curso de podcast.">
+                <a href="https://lannyer.github.io/cursohtmlcssfeliz/"><img class="main-projects-item"
+                        src="assets/img/portfolio.png"
+                        alt="Este site, projeto feito na aula com Marco BRuno da CollabCode e Fire Labs."></a>
             </div>
         </section>
-        <section class="acriar">
+        <section class="main-about">
             <h2 class="main-title -second">Sobre</h2>
-            <div class="sobre">
-                <p>
-                    Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas
-                    áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu
-                    caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e
-                    Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em
-                    diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft
-                    ou trocando ideias com amigos.</p>
-            </div>
 
+            <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou
+                nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir
+                descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de
+                UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em
+                diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou
+                trocando ideias com amigos.</p>
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">Voltar</span></button>
+
+                <figure class="node-card">
+                    <figcaption class="title">2012</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-locaweb.png" alt="Logo da Locaweb">
+                    </div>
+                </figure>
+                <figure class="node-card -clean">
+                    <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                    </div>
+                </figure>
+                <figure class="node-card -pink">
+                    <figcaption class="title">2016</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-getninjas.png" alt="Logo do GetNinjas">
+                    </div>
+                </figure>
+                <figure class="node-card -clean">
+                    <figcaption class="title">2017</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                    </div>
+                </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2018</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-impulso.png" alt="Logo da Impulso">
+                    </div>
+                </figure>
+                <figure class="node-card -pink">
+                    <figcaption class="title">2019</figcaption>
+                    <div class="logo">
+                        <img src="assets/img/logo-collabcode.png" alt="Logo da CollabCode">
+                    </div>
+                </figure>
+
+                <button class="button-arrow -right"><span class="content">Avançar</span></button>
+            </section>
         </section>
     </body>
 
