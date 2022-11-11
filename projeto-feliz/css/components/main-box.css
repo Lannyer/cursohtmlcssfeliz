@@ -2,8 +2,7 @@
     display:inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000;
-    margin-top: 196px;
-    margin-bottom: 40px;
+    margin: 196px 0 40px 91px;
     padding: 50px 40px;
 }
 .main-box .main-title {

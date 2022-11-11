@@ -1,6 +1,5 @@
-body, a, h1, h2, h3, figure, input {
+body, a, h1, h2, h3, figure {
     margin: 0;
-    padding: 0;
 }
 
 button {

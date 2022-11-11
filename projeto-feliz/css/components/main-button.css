@@ -1,6 +1,6 @@
 .main-button {
     display: inline-block;
-    background-color: #004678;
+    background-color: #F25A70;
     box-shadow: 5px 5px 0 #eee;
     padding: 18px 20px;
     margin-right: 0;
@@ -14,11 +14,12 @@
  }
 
 .main-button:hover {
-    background-color: #2B658E;
-    box-shadow: 5px 5px 0 #004678;
+    background-color: #eee;
+    box-shadow: 5px 5px 0 #F25A70;
     padding: 18px 20px;
     margin-right: 0;
     text-decoration: none;
+    color: #F25A70;
 }
 
 .main-button.-full {

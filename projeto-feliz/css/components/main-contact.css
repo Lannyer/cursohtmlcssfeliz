@@ -1,0 +1,19 @@
+.main-contact {
+    background-color: #3A4042;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+}
+
+.main-contact .main-input {
+    margin-bottom: 20px;
+}
+
+.main-contact main-title.-second {
+    margin-bottom: 50px;
+}
+
+.main-form{
+    margin-top: 50px;
+}

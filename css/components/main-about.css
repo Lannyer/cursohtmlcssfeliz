@@ -1,6 +1,15 @@
 .main-about {
     background-color: #003f6b;
-    height: 783px;
     border-bottom: 10px solid #000;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-left: 80px;
+}
+
