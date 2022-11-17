@@ -1,8 +1,8 @@
 # Curso de HTML e CSS feliz
 
+Aqui se encontra o projeto realizado pelo [Marco Bruno Dev](https://twitter.com/marcobrunodev) no [_Curso de HTML e CSS feliz_](https://www.youtube.com/playlist?list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa)
 
-Lorem ipsum dolor sit amet...
-
+Projeto concluído: https://lannyer.github.io/cursohtmlcssfeliz/
 
 **header:** usada para criar cabeçalhos em uma página. Representa um grupo de suporte de introdução e de naveação.
 
@@ -15,6 +15,7 @@ Lorem ipsum dolor sit amet...
 **lang:** atributo globl usado para indicar a língua que o texto está escrito. Ajuda no SEO e na acessibilidade dos leitores de tela.
 
 ~~~html
+
 <html lang="pt-BR">
 
     <a href="">Sobre</a>
@@ -22,6 +23,7 @@ Lorem ipsum dolor sit amet...
     <a href="" lang="en"><em lang="en">Download CV</em></a>
 
 </html>
+
 ~~~
 > Os valores ```pt-BR```, e ```en``` indicam que os textos naquele escopo, daquela tag é português e inglês respectivamente.
 
@@ -31,8 +33,10 @@ Lorem ipsum dolor sit amet...
 
 _Ex:_
 
-~~~html
+~~~
+
 header>img+nav>a*5
+
 ~~~
 
 - **>** : coloca uma tag dentro da outra.
@@ -42,6 +46,7 @@ header>img+nav>a*5
 Resultado logo abaixo
 
 ~~~html
+
         <header>
             <img src="assets/img/logo.png" alt="">
             <nav>
@@ -52,18 +57,23 @@ Resultado logo abaixo
                 <a href="" lang="en"><em lang="en">Download CV</em></a>
             </nav>
         </header>
+
 ~~~
 > As tags ```img```, ```nav```, ```a```, dentro da tag ```header```, sendo que a tag ```a``` está dentro da tag ```nav``` que por sua vez, está "ao lado" da tag ```img```.
 
 E também é possível criar tags com conteúdo de texto dentro delas.
 
-~~~html
+~~~
+
 a{Lorem}
+
 ~~~
 > Basta utilizar o atalho **ctrl+espaço** para abrir a caixa de diálogo e em seguida a tecla _Enter_, para se obter oseguinte resultado.
 
 ~~~html
+
 <a href="">teste</a>
+
 ~~~
 
 ---
@@ -95,12 +105,12 @@ _Ex:_
 <style> 
 
 p {
-color: white;
-color: #FFFFFF; 
-color: #FFF;
-color: rgb(255,255,255);
-color: #FF00BB;
-color: #F0B;
+    color: white;
+    color: #FFFFFF; 
+    color: #FFF;
+    color: rgb(255,255,255);
+    color: #FF00BB;
+    color: #F0B;
 }
 
 </style>
@@ -118,9 +128,7 @@ Quase tudo funciona em "caixas", englobando o conteúdo do elemento. Algumas eng
 **-** _display: block_ - ele ocupa toda a linha por padrão, como o elemento ```<nav>```. Permite definir altura e largura.Por padrão sua largura é a "linha" toda, quem define a largura é o elemento pai. A altura é definida pelo conteúdo, o que define, então, é o comportamento dos elementos filhos. 
 **-** _display: inline-block_ - o melhor dos dois mundos. Ele mantém na mesma linha, herda o comportamento por palavra, altera largura e altura e se não forem definidas irá seguir o conteúdo.
 
-https://www.youtube.com/watch?v=caxiggysoB4&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=74
-
-24-27
+[Aulas de a 24-27.](https://www.youtube.com/watch?v=Jam2An2hvaQ&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=24)
 
 ---
 
@@ -140,13 +148,27 @@ https://www.youtube.com/watch?v=caxiggysoB4&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXY
 
 ---
 
-dl
-dt
-dd
+**dl:** de _definition list_, lista de definição. Engloba lista de pares de termos e descrições. 
+
+**dt:** de _definition term_, definição de termo. Serve para identificar um termo na lsta de definição
+
+**dd:** de _description details_, descrição de detalhes. Dá uma definição completa do termo definidono elemento ```dt```.
+
+~~~html
+
+<dl>
+  <dt>Firefox</dt>
+  <dt>Mozilla Firefox</dt>
+  <dt>Fx</dt>
+  <dd>A free, open source, cross-platform, graphical web browser
+      developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+</dl>
+
+~~~
 
 ---
 
-progress
+**progress:** é usado para visualizar o progresso de uma tarefa. sua visualização é definido pelo usuário, geralmente cria uma barra de progresso.
 
 ---
 
@@ -168,32 +190,92 @@ componente
 
 componente elemento modificador
 uma palavra elemento, separado por hifen componente
-https://www.youtube.com/watch?v=EfuzIO9nrzs&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa&index=79
 
 --- 
 
-webkit moz
+**"Webkit":** é uma ferramenta usada para implementar rescursos CSS novos ou proprietários antes da sua definição final.
+
+Como existem muito navegadores e cada um deles funciona de uma forma, é necessário adicionar prefixos para que um estilo CSS funcione.
+
+_Ex:_
+
+ Estas são propriedades e em quais navegadores elas funcionam ```-webkit``` para o Chrome e o Safari, ```-moz``` para o Firefox, ```-o``` para o Opera, ```-ms``` para o Internet Explorer
+
+~~~html
+<style>
+.elementClass {
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+</style>
+~~~
 
 ---
 
-article
+**article:** representa uma composição independente do documento que é destinado a ser utilizado de forma independente ou reutilizável.
+
+>- Quando um elemento <article> está aninhado, o elemento interior representa um artigo relacionado com o elemento exterior. Por exemplo, os comentários do post de um blog podem ser elementos <article> aninhados em <article> representando o post do blog.
+>- Informações sobre o autor de um elemento <article> podem ser fornecidas através do elemento <address> ,mas ele não se aplica aos elementos <article> aninhados.
+>- A data e hora de publicação de um elemento <article> pode ser descrita usando o atributo pubdate de um elemento <time>.
+>Fonte: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/article
 
 ---
 
-:nth-child()
+**:nth-child():** uma pseudo-classe. Seleciona elementos com base em suas posições em um grupo de elementos irmãos.
+
+_Ex:_ 
+
+~~~html
+<style>
+
+:nth-child(4n) {
+  color: lime;
+}
+~~~
+>Seleciona um a cada quatro elementos de qualquer grupo de elementos irmãos, começando do quarto elemento (4, 8 12, etc.). 
+
+**-** _Pseudo-classe_: é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento. Pseudo-classes permitem que aplique estilos a um elemento em relação ao conteúdo da árvore do documento, navegação, status do conteúdo, posição do mouse.
 
 ---
 
-figure
+**figure:** representa conteudo autocontido, que pode conter legenda que é especificada usando o elemento ```figcaption```.
+>A figuram sua legenda e seu conteúdo saõ referenciados como uma única unidade.
+
+_Ex:_
+
+~~~html
+
+<!-- Apenas uma imagem -->
+<figure>
+  <img src="favicon-192x192.png" alt="O lindo logotipo do MDN." />
+</figure>
+
+<!-- Imagem com legenda -->
+<figure>
+  <img src="favicon-192x192.png" alt="O lindo logotipo do MDN." />
+  <figcaption>Logotipo MDN</figcaption>
+</figure>
+    
+~~~
+>- Normalmente uma <figure> é uma imagem, ilustração, diagrama, trecho de código, etc., que é referenciado no fluxo principal de um documento, mas que pode ser movido para outra parte do documento ou para um apêndice sem afetar o fluxo principal.
+>- Uma legenda pode ser associada ao elemento <figure> inserindo um <figcaption> dentro dele (como o primeiro ou o último filho). O primeiro elemento <figcaption> encontrado na figura é apresentado como legenda da figura.
+>Fonte: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/figure
 
 ---
 
-fatoração
+**Refatoração:** consiste em revisar o código com o intuito de remover redundâncias e incosistências.
 
 ---
 
-box-sizing: 
-border-box;
+**box-sizing:** altera as propriedades padrão do _box model_ usado para calcular altura e largura dos elementos. Um de seus valores é o _border-box_.
+
+**-** _border-box_: as propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin.
+>Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-sizing
+
+**-** _box model_: é um módulo de CSS que define caixas retangulares incluindo preenchimento e margem.
+>Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model
 
 ---
 
@@ -203,8 +285,40 @@ translateX(-62%);
 
 ---
 
-content: '';
+**content:** é usado para gerar conteúdo em um elemento.
+>Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/content
+
+_Ex:_
+
+~~~html
+<style>
+.button-arrow::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+}
+</style>
+~~~
 
 ---
 
+**calc():** é umafunção CSS permite executar cálculos quando especificar os valores das propriedades.
 
+~~~html
+
+<style>
+width: calc(100% -80px);
+</style>
+
+~~~
+
+---
+
+**footer:** é o elemento usado para criação de rodapé no _sectioning contant_ mais próximo, ou seu parente mais próximo.
+>Sectioning contant, ou conteúdo de seção, são os conteúdos que definem o escopo dos cabeçalhos e rodapés.
+
+---
+
+**legend:** representa um rótulo para o contéudo, muito usado para dar títulos a forulários.
